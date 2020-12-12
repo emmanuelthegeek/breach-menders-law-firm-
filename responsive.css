@@ -1,0 +1,136 @@
+/***************************************/
+/* Start Display Section
+/***************************************/
+@media only screen and (min-device-width : 767px) {
+    #display-section {
+        display: none;
+    }
+}
+
+/*--------------------------------------------------*/
+/* Start Header Section                             */
+/*--------------------------------------------------*/
+
+@media only screen and (max-device-width : 374px) {
+    .banner .intro-text h1 {    
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 5px;
+        margin-bottom: 55px;
+        -webkit-animation: bounceIn;
+        -moz-animation: rubberBand;
+        -o-animation: bounceIn;
+        animation: bounceIn;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+        -o-animation-duration: 2s;
+        animation-duration: 2s;
+        font-family: 'Oswald', sans-serif;
+    }    
+
+    .investment .intro-text h1 {    
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 5px;
+        margin-bottom: 55px;
+        -webkit-animation: bounceIn;
+        -moz-animation: rubberBand;
+        -o-animation: bounceIn;
+        animation: bounceIn;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+        -o-animation-duration: 2s;
+        animation-duration: 2s;
+        font-family: 'Oswald', sans-serif;
+    }    
+}
+
+@media only screen and (min-device-width : 110px) and (max-device-width : 370px) {
+    body{
+        width:100% !important;
+        height:100%; 
+        margin:0; 
+        overflow-x: hidden !important;
+        display:block;
+        padding: 0;	
+    }
+
+    .banner .intro-text h1 {    
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 5px;
+        margin-bottom: 55px;
+        margin-top: 25px;
+        -webkit-animation: bounceIn;
+        -moz-animation: rubberBand;
+        -o-animation: bounceIn;
+        animation: bounceIn;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+        -o-animation-duration: 2s;
+        animation-duration: 2s;
+        font-family: 'Oswald', sans-serif;
+    }   
+
+    .banner .intro-text p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 15px;
+        letter-spacing: 3px;
+        margin-bottom: 55px;
+        -webkit-animation: bounceInLeft;
+        -moz-animation: fadeInLeft;
+        -o-animation: fadeInLeft;
+        animation: bounceLeft;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+        -o-animation-duration: 2s;
+        animation-duration: 2s;
+    }
+
+    .investment .intro-text h1 {    
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 5px;
+        margin-bottom: 55px;
+        margin-top: 25px;
+        -webkit-animation: bounceIn;
+        -moz-animation: rubberBand;
+        -o-animation: bounceIn;
+        animation: bounceIn;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+        -o-animation-duration: 2s;
+        animation-duration: 2s;
+        font-family: 'Oswald', sans-serif;
+    }   
+
+    .investment .intro-text p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 15px;
+        letter-spacing: 3px;
+        margin-bottom: 55px;
+        -webkit-animation: bounceInLeft;
+        -moz-animation: fadeInLeft;
+        -o-animation: fadeInLeft;
+        animation: bounceLeft;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+        -o-animation-duration: 2s;
+        animation-duration: 2s;
+    }
+
+    .section-title h2{
+        color: #111;
+        font-size: 20px;
+        font-family: 'PT Sans Narrow', Arial, sans-serif;
+        text-transform: none;
+    }
+}
